@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let imageView = UIImageView(frame: view.bounds)
+        imageView.image = UIImage(named: "style1.jpg")
+        view.addSubview(imageView)
     }
 
     override func didReceiveMemoryWarning() {

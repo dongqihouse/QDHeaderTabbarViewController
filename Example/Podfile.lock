@@ -1,0 +1,23 @@
+PODS:
+  - QDHeaderTabbarViewController (0.1.0):
+    - SnapKit
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - QDHeaderTabbarViewController (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  QDHeaderTabbarViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QDHeaderTabbarViewController: 8abc121cce0d603aefe2707db317440bf9399bf0
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 1e2cc0573d489f98059f360960bfaa833d3a1a16
+
+COCOAPODS: 1.5.0

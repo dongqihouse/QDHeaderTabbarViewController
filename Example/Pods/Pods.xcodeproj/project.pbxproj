@@ -1,0 +1,1077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00BF5C330CBA3155B15021D28FA7ED6C /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42E6B36692CB79785C933E25719FA6F /* SnapKit.framework */; };
+		05CC1B6DB8B0666C749BA6C95786E518 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC9D64458AB89596AC989C36546AE0 /* Typealiases.swift */; };
+		0A5C97C2B8C0D787550A86CF08275588 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B953D578152B8ABC94EDF5E0C6A43 /* LayoutConstraintItem.swift */; };
+		0E612AC6FEB739ECD67200F0D0DD08A7 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E03888824F0BC09BC4827577C35087 /* Debugging.swift */; };
+		1665D104FD0D2C8ECE4711D2E7DD686D /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35E795A4705B4FB474FF417682335F1 /* ConstraintMakerExtendable.swift */; };
+		19FA7267B4DF04A89437755E5F329A4C /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EC67A9344FB011AC6B0CB0B1706C1C /* ConstraintLayoutSupportDSL.swift */; };
+		1CAC6D41EEE00F3CC9C5A31001CCD0C7 /* Pods-QDHeaderTabbarViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E1170B858FA8777749F7A296F9C8F3 /* Pods-QDHeaderTabbarViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CDB836EBEE115EB780D9557393D8072 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618BA51B32ACF0F8F31A11BACEF95396 /* ConstraintMultiplierTarget.swift */; };
+		267F79BE94253A9437F6249C990BD4D8 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068A4C41AD3E035EFFE7E7F568CE1EF9 /* ConstraintLayoutGuideDSL.swift */; };
+		27D63DE701CACF2273075E3A3B3CE99E /* QDHeaderTabbarViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16424C4B21A5653E5205CF0675263C4B /* QDHeaderTabbarViewController-dummy.m */; };
+		2EB1CFC9F6FAC628FB76DDF2C6B57D75 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD97CEFB74800C4A5F04ED11A13D33D5 /* ConstraintItem.swift */; };
+		30EE94B33FE5DA36C8CED2FE7F2285EC /* QDHeaderTabbarViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B656EC60F979BBB58266CC22A6DD2DA /* QDHeaderTabbarViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31A4DE59C91EAAD95FE3347AAE9C2C69 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B73C67F9EFC99A11440EE4069211B84A /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35E52A22D010ED5BCB869468716668ED /* QDHeaderTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6200639BF2E65E144CF55F7C6E65B9A /* QDHeaderTabbarViewController.swift */; };
+		369BFA773229E2E7EE3EB23F44456F27 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE14A5BE5AA8350526F042EBC920BAA /* ConstraintLayoutSupport.swift */; };
+		39E9C33E1ADBAA2B176901FDD6E4830F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9521D86A6892F96BA3DD377CFCFA60CA /* Foundation.framework */; };
+		415B41CDEAA3C91710BCACB8FBB0F430 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B0F68F55650AB9DA3EB802B75CFE0 /* ConstraintConstantTarget.swift */; };
+		4207629FACB781BC48C8D514CE036E9F /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FE61DC3251BBA5CD452BE8564C8E7 /* ConstraintMaker.swift */; };
+		4E331F417355123B3DC0D1FCBA0097D3 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645061FD8BF394AC613CF4F0D51EEE0B /* ConstraintDSL.swift */; };
+		65089E7ECB7DA5452B49FA82231E08CD /* Pods-QDHeaderTabbarViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C3840B99EB162E2DBAC57F90760917 /* Pods-QDHeaderTabbarViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C1E55BAB2816D24AF9400E2A0E737F3 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAC0AC855EFDB998E84AB91F91FC4CA /* ConstraintInsetTarget.swift */; };
+		75454CEDDB0DC40165DD7567FA940690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9521D86A6892F96BA3DD377CFCFA60CA /* Foundation.framework */; };
+		75AF27B346F87592D69C5FDE4A427833 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F1F08ED6F3C072E7AC9154FBDC8C4E /* SnapKit-dummy.m */; };
+		7B37679C4591B3A62F2250DD45433144 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF518E3C1EEA98354E7A1BB1CEC881B /* ConstraintAttributes.swift */; };
+		81A9F6129B8C0864A3E9B33B3C0AF3E7 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA17F2D7F42352672F30A144E51AC809 /* ConstraintRelation.swift */; };
+		8937A8445B35B6A4BF83C1775703C2C8 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39EF6D4C8D8F847461613349A75E07 /* ConstraintDescription.swift */; };
+		920352A312A60C0521D77412B47545AD /* Pods-QDHeaderTabbarViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 305A37859180E614086FB1962A1C13C4 /* Pods-QDHeaderTabbarViewController_Tests-dummy.m */; };
+		9963CC3C93AA9AF97BA90BBEAC7BC6FA /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1C88D7583A855F149230ABA2DF3C8 /* ConstraintRelatableTarget.swift */; };
+		9982388D694A5CC3869E08125232F82D /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A4D5D85B4FAEB4C7AF868A3E48121 /* ConstraintMakerPriortizable.swift */; };
+		9C7E0E2E515AFFDCA33EC90952237AD2 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BDCD0CDEC036E08EBEFEBDB5217C5A /* ConstraintView+Extensions.swift */; };
+		AB4A48F52C05D346C342EDA5B3750F01 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C8BFD80A7988D3B139768116EE2A7 /* ConstraintMakerRelatable.swift */; };
+		AC20D28BE7EFBDED98AC33881B823FB6 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9297EFDA2A228BE0D126B13FEC2B2AC1 /* ConstraintInsets.swift */; };
+		ACB5B17B29D15CEAAB9A2B1F8E9BC04D /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CE3DCD5A18E652A9D4C4FCC6AEAE10 /* ConstraintMakerEditable.swift */; };
+		B3091A279FD1943574789738B2647EAE /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A931CDC4FB0563592274ED61655C7 /* ConstraintPriority.swift */; };
+		B5D210C29FC44CFBA1A14E053A6A8447 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9521D86A6892F96BA3DD377CFCFA60CA /* Foundation.framework */; };
+		C0F20C9C24CDAE80527C249AF8EE9113 /* Pods-QDHeaderTabbarViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 049A093A8CADAFED6883CDACEAFDB7EB /* Pods-QDHeaderTabbarViewController_Example-dummy.m */; };
+		CA3A65CF379E156898E687F176A131F7 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5495F3260249C5CD5E62E6D02610A41D /* ConstraintPriorityTarget.swift */; };
+		CC9F8DE9875EE0370434D6F0A11CC4E5 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465909C1E34108C63AB5FBA6378D3493 /* LayoutConstraint.swift */; };
+		D90BF6D554E971D8F5A81B0699A7B38A /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FAAF2F13CE5B667DCA58EF782CF6D /* ConstraintLayoutGuide.swift */; };
+		DB3B1948A6B74B34F9CF38D5E03BA187 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C4EE941C99C2F663494C43944D63FD /* ConstraintConfig.swift */; };
+		EB03F7EA89C99940323FE63B0A1D76D1 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B058F739089B32F3323418933731ADFB /* ConstraintViewDSL.swift */; };
+		EE07251C91B3362813F462A82530466D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9521D86A6892F96BA3DD377CFCFA60CA /* Foundation.framework */; };
+		F01E3E1510E8D266D0E3AEC6D62C994B /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A91D0ACFB6CF1883A820AA2607BCA8 /* ConstraintView.swift */; };
+		F059AF7AAEF34276CC7527080EF22BF3 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F75E7EE36678F81FD1EC4247DB1B87 /* ConstraintMakerFinalizable.swift */; };
+		F86FDDFE619CD2FD94B1B228AC2F14D5 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1130FD3420568BD4A44BC6359400E0A8 /* ConstraintLayoutGuide+Extensions.swift */; };
+		FA8FBA72DED05A0D97E700568921C84A /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45908992EEDBCFF12244DAE9912F7228 /* UILayoutSupport+Extensions.swift */; };
+		FEFAD5143982F7D6181E1E838F02C5D0 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3463E11A1205B5C35B599F4A19C31C3 /* ConstraintOffsetTarget.swift */; };
+		FF67FDE3B7637A49072A496EC7D86739 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2798FAD1ED522B9041959ED19ED6B3DE /* Constraint.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E0E8DC3E363CC4F1AC2F06CEA218D8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C53ED8D6910E36C604E4ED6CD700A2;
+			remoteInfo = SnapKit;
+		};
+		91754C160332941A5D7CD9BFB465A670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 517553829890A02A65A37F30B6A266CF;
+			remoteInfo = QDHeaderTabbarViewController;
+		};
+		99D8668C2B13E21CAEF7AB3BA8676D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E7A3ECF115826FC82D1F408331D3796;
+			remoteInfo = "Pods-QDHeaderTabbarViewController_Example";
+		};
+		E72E9C07DEDC8033161B6CF966B0476A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C53ED8D6910E36C604E4ED6CD700A2;
+			remoteInfo = SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EAC02240B7C3F5B1F59047B24A9AC4 /* Pods-QDHeaderTabbarViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QDHeaderTabbarViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		04896D9C916E5443116FD1A6E1233D88 /* Pods-QDHeaderTabbarViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDHeaderTabbarViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		049A093A8CADAFED6883CDACEAFDB7EB /* Pods-QDHeaderTabbarViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QDHeaderTabbarViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		060367B8568B71A6830282F422A3852C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		068A4C41AD3E035EFFE7E7F568CE1EF9 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		0AF518E3C1EEA98354E7A1BB1CEC881B /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		11084A6BA20780B0A92EE054D45AD2B7 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		1130FD3420568BD4A44BC6359400E0A8 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		14F761BB147F299481A40D814EAD234C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		155B0F68F55650AB9DA3EB802B75CFE0 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		16424C4B21A5653E5205CF0675263C4B /* QDHeaderTabbarViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QDHeaderTabbarViewController-dummy.m"; sourceTree = "<group>"; };
+		16ECA599DD281D1C346FA636FED3088A /* Pods-QDHeaderTabbarViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QDHeaderTabbarViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C3A931CDC4FB0563592274ED61655C7 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		2057A81225328642D0E49115C61C8897 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		22DF2CF71E07E9F6A15D438501BFA44D /* QDHeaderTabbarViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QDHeaderTabbarViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		23C4EE941C99C2F663494C43944D63FD /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		2798FAD1ED522B9041959ED19ED6B3DE /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		2AD3E0F62612C19F753C7BF5780843EB /* Pods-QDHeaderTabbarViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QDHeaderTabbarViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		305A37859180E614086FB1962A1C13C4 /* Pods-QDHeaderTabbarViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QDHeaderTabbarViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		35A91D0ACFB6CF1883A820AA2607BCA8 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		3A39EF6D4C8D8F847461613349A75E07 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		3ABC9D64458AB89596AC989C36546AE0 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		408E167A9C8CF5314A4C53D84F56F7ED /* Pods_QDHeaderTabbarViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QDHeaderTabbarViewController_Example.framework; path = "Pods-QDHeaderTabbarViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45908992EEDBCFF12244DAE9912F7228 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		465909C1E34108C63AB5FBA6378D3493 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		48CE3DCD5A18E652A9D4C4FCC6AEAE10 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		4FEF3105B249A96CF2F744F7AFC8536C /* Pods-QDHeaderTabbarViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDHeaderTabbarViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		539E5FEBE76B92A15632926714F6DC62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5495F3260249C5CD5E62E6D02610A41D /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		55F1F08ED6F3C072E7AC9154FBDC8C4E /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		5CE2C180D783AF114A5F9D30F91D5210 /* QDHeaderTabbarViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QDHeaderTabbarViewController.xcconfig; sourceTree = "<group>"; };
+		5D5524CFD3F2C05D21B239BE9B4AA79B /* Pods-QDHeaderTabbarViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDHeaderTabbarViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5F0C5C032804B650C5DC5E5CB053339E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FAC0AC855EFDB998E84AB91F91FC4CA /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		618BA51B32ACF0F8F31A11BACEF95396 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		645061FD8BF394AC613CF4F0D51EEE0B /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		69A99E30CC70F885E542D924AAB1BDA2 /* Pods-QDHeaderTabbarViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDHeaderTabbarViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6B656EC60F979BBB58266CC22A6DD2DA /* QDHeaderTabbarViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QDHeaderTabbarViewController-umbrella.h"; sourceTree = "<group>"; };
+		702C8D748CFA2199A8D1BD4960161C2F /* Pods-QDHeaderTabbarViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDHeaderTabbarViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		73E1170B858FA8777749F7A296F9C8F3 /* Pods-QDHeaderTabbarViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QDHeaderTabbarViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7440B8476FB2CBEF40558C267A74668C /* QDHeaderTabbarViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QDHeaderTabbarViewController-prefix.pch"; sourceTree = "<group>"; };
+		78094D09ADA8B058C6E8A539474A51E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7B0B4E115CFB42A1159122B1F2CC5CFB /* Pods-QDHeaderTabbarViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDHeaderTabbarViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7ECE6F4B4D3591D17AD68F349B659A35 /* Pods-QDHeaderTabbarViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDHeaderTabbarViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		831C3038431BBC33ACF1D57A3198E0AD /* Pods-QDHeaderTabbarViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDHeaderTabbarViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8A0A4D5D85B4FAEB4C7AF868A3E48121 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		9297EFDA2A228BE0D126B13FEC2B2AC1 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		92EC67A9344FB011AC6B0CB0B1706C1C /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9521D86A6892F96BA3DD377CFCFA60CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A367755D804BC68DCDE99F1AEB8B1B78 /* QDHeaderTabbarViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QDHeaderTabbarViewController.framework; path = QDHeaderTabbarViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5FAAF2F13CE5B667DCA58EF782CF6D /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		B058F739089B32F3323418933731ADFB /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		B5C9CEB30AA71EB58B5CD53321954DE0 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		B73C67F9EFC99A11440EE4069211B84A /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		B8BDCD0CDEC036E08EBEFEBDB5217C5A /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		BCD5A7D84DF9E162911F12B4526DD707 /* Pods-QDHeaderTabbarViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QDHeaderTabbarViewController_Example.modulemap"; sourceTree = "<group>"; };
+		C42E6B36692CB79785C933E25719FA6F /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BB2526A9DB2322D06E25110987F492 /* Pods-QDHeaderTabbarViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QDHeaderTabbarViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5B102B57B518BC5D0D266F4B35FF6A7 /* Pods-QDHeaderTabbarViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QDHeaderTabbarViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		C6200639BF2E65E144CF55F7C6E65B9A /* QDHeaderTabbarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QDHeaderTabbarViewController.swift; path = QDHeaderTabbarViewController/Classes/QDHeaderTabbarViewController.swift; sourceTree = "<group>"; };
+		D09C8BFD80A7988D3B139768116EE2A7 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		D3463E11A1205B5C35B599F4A19C31C3 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		D35E795A4705B4FB474FF417682335F1 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		D69B953D578152B8ABC94EDF5E0C6A43 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		D6E03888824F0BC09BC4827577C35087 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		DA17F2D7F42352672F30A144E51AC809 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		DBE14A5BE5AA8350526F042EBC920BAA /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		DD97CEFB74800C4A5F04ED11A13D33D5 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		E0C7AB081F56F6F76EEAA7307CAC7FBA /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B1F065A6ECA6844D40E9F214147DB7 /* QDHeaderTabbarViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QDHeaderTabbarViewController.modulemap; sourceTree = "<group>"; };
+		E6099AE9145B7BEDFD22D8E91021A9F7 /* Pods_QDHeaderTabbarViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QDHeaderTabbarViewController_Tests.framework; path = "Pods-QDHeaderTabbarViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB1C88D7583A855F149230ABA2DF3C8 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		EEC1C0925B7A75C47F90DA4CD473E0A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F75E7EE36678F81FD1EC4247DB1B87 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		F4C3840B99EB162E2DBAC57F90760917 /* Pods-QDHeaderTabbarViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QDHeaderTabbarViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		FE1FE61DC3251BBA5CD452BE8564C8E7 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E03C4F012B5A6BB352E6AF7480108F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D210C29FC44CFBA1A14E053A6A8447 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049146DAB37D28C9BB7B0EA4AA4576CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE07251C91B3362813F462A82530466D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8EF914BCFAC8A233D6AC5273AA3A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E9C33E1ADBAA2B176901FDD6E4830F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6392C0C4637429FCC648B05586B025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75454CEDDB0DC40165DD7567FA940690 /* Foundation.framework in Frameworks */,
+				00BF5C330CBA3155B15021D28FA7ED6C /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F14D01B37C684095099AE8C8376D636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACE3CBBE2C7163F9C96209ED44FA75D0 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1B1D4A8D26A0C068EE049C880096F3FF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9521D86A6892F96BA3DD377CFCFA60CA /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3E2F519BF75BE7A7529A0B3A90A08D22 /* Pods-QDHeaderTabbarViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5F0C5C032804B650C5DC5E5CB053339E /* Info.plist */,
+				C5B102B57B518BC5D0D266F4B35FF6A7 /* Pods-QDHeaderTabbarViewController_Tests.modulemap */,
+				C4BB2526A9DB2322D06E25110987F492 /* Pods-QDHeaderTabbarViewController_Tests-acknowledgements.markdown */,
+				03EAC02240B7C3F5B1F59047B24A9AC4 /* Pods-QDHeaderTabbarViewController_Tests-acknowledgements.plist */,
+				305A37859180E614086FB1962A1C13C4 /* Pods-QDHeaderTabbarViewController_Tests-dummy.m */,
+				702C8D748CFA2199A8D1BD4960161C2F /* Pods-QDHeaderTabbarViewController_Tests-frameworks.sh */,
+				7ECE6F4B4D3591D17AD68F349B659A35 /* Pods-QDHeaderTabbarViewController_Tests-resources.sh */,
+				73E1170B858FA8777749F7A296F9C8F3 /* Pods-QDHeaderTabbarViewController_Tests-umbrella.h */,
+				4FEF3105B249A96CF2F744F7AFC8536C /* Pods-QDHeaderTabbarViewController_Tests.debug.xcconfig */,
+				69A99E30CC70F885E542D924AAB1BDA2 /* Pods-QDHeaderTabbarViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-QDHeaderTabbarViewController_Tests";
+			path = "Target Support Files/Pods-QDHeaderTabbarViewController_Tests";
+			sourceTree = "<group>";
+		};
+		432313F4618A6E0D54282078B6A48A1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEC1C0925B7A75C47F90DA4CD473E0A9 /* Info.plist */,
+				2057A81225328642D0E49115C61C8897 /* SnapKit.modulemap */,
+				11084A6BA20780B0A92EE054D45AD2B7 /* SnapKit.xcconfig */,
+				55F1F08ED6F3C072E7AC9154FBDC8C4E /* SnapKit-dummy.m */,
+				B5C9CEB30AA71EB58B5CD53321954DE0 /* SnapKit-prefix.pch */,
+				B73C67F9EFC99A11440EE4069211B84A /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		461BD40CB8FA80AF0467D0FFB4B08214 /* Pods-QDHeaderTabbarViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				14F761BB147F299481A40D814EAD234C /* Info.plist */,
+				BCD5A7D84DF9E162911F12B4526DD707 /* Pods-QDHeaderTabbarViewController_Example.modulemap */,
+				2AD3E0F62612C19F753C7BF5780843EB /* Pods-QDHeaderTabbarViewController_Example-acknowledgements.markdown */,
+				16ECA599DD281D1C346FA636FED3088A /* Pods-QDHeaderTabbarViewController_Example-acknowledgements.plist */,
+				049A093A8CADAFED6883CDACEAFDB7EB /* Pods-QDHeaderTabbarViewController_Example-dummy.m */,
+				831C3038431BBC33ACF1D57A3198E0AD /* Pods-QDHeaderTabbarViewController_Example-frameworks.sh */,
+				04896D9C916E5443116FD1A6E1233D88 /* Pods-QDHeaderTabbarViewController_Example-resources.sh */,
+				F4C3840B99EB162E2DBAC57F90760917 /* Pods-QDHeaderTabbarViewController_Example-umbrella.h */,
+				7B0B4E115CFB42A1159122B1F2CC5CFB /* Pods-QDHeaderTabbarViewController_Example.debug.xcconfig */,
+				5D5524CFD3F2C05D21B239BE9B4AA79B /* Pods-QDHeaderTabbarViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-QDHeaderTabbarViewController_Example";
+			path = "Target Support Files/Pods-QDHeaderTabbarViewController_Example";
+			sourceTree = "<group>";
+		};
+		6B5DBD704C691906B3291E8563908111 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA6DCFA7E6F5D41CB95D4253EAD3A26A /* QDHeaderTabbarViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6B5DBD704C691906B3291E8563908111 /* Development Pods */,
+				D8B25C6DF01BE2C3F2FA6A25AEE6417A /* Frameworks */,
+				0F14D01B37C684095099AE8C8376D636 /* Pods */,
+				97EDD089B67EF6C5DFAC68525437BFB3 /* Products */,
+				C098A9E35B53A4E0C62EA88384EAB1AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		844328A6BCD95B4F00C5DDA70DB098C9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				060367B8568B71A6830282F422A3852C /* LICENSE */,
+				22DF2CF71E07E9F6A15D438501BFA44D /* QDHeaderTabbarViewController.podspec */,
+				78094D09ADA8B058C6E8A539474A51E7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		97EDD089B67EF6C5DFAC68525437BFB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408E167A9C8CF5314A4C53D84F56F7ED /* Pods_QDHeaderTabbarViewController_Example.framework */,
+				E6099AE9145B7BEDFD22D8E91021A9F7 /* Pods_QDHeaderTabbarViewController_Tests.framework */,
+				A367755D804BC68DCDE99F1AEB8B1B78 /* QDHeaderTabbarViewController.framework */,
+				E0C7AB081F56F6F76EEAA7307CAC7FBA /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE3CBBE2C7163F9C96209ED44FA75D0 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				2798FAD1ED522B9041959ED19ED6B3DE /* Constraint.swift */,
+				0AF518E3C1EEA98354E7A1BB1CEC881B /* ConstraintAttributes.swift */,
+				23C4EE941C99C2F663494C43944D63FD /* ConstraintConfig.swift */,
+				155B0F68F55650AB9DA3EB802B75CFE0 /* ConstraintConstantTarget.swift */,
+				3A39EF6D4C8D8F847461613349A75E07 /* ConstraintDescription.swift */,
+				645061FD8BF394AC613CF4F0D51EEE0B /* ConstraintDSL.swift */,
+				9297EFDA2A228BE0D126B13FEC2B2AC1 /* ConstraintInsets.swift */,
+				5FAC0AC855EFDB998E84AB91F91FC4CA /* ConstraintInsetTarget.swift */,
+				DD97CEFB74800C4A5F04ED11A13D33D5 /* ConstraintItem.swift */,
+				AF5FAAF2F13CE5B667DCA58EF782CF6D /* ConstraintLayoutGuide.swift */,
+				1130FD3420568BD4A44BC6359400E0A8 /* ConstraintLayoutGuide+Extensions.swift */,
+				068A4C41AD3E035EFFE7E7F568CE1EF9 /* ConstraintLayoutGuideDSL.swift */,
+				DBE14A5BE5AA8350526F042EBC920BAA /* ConstraintLayoutSupport.swift */,
+				92EC67A9344FB011AC6B0CB0B1706C1C /* ConstraintLayoutSupportDSL.swift */,
+				FE1FE61DC3251BBA5CD452BE8564C8E7 /* ConstraintMaker.swift */,
+				48CE3DCD5A18E652A9D4C4FCC6AEAE10 /* ConstraintMakerEditable.swift */,
+				D35E795A4705B4FB474FF417682335F1 /* ConstraintMakerExtendable.swift */,
+				F3F75E7EE36678F81FD1EC4247DB1B87 /* ConstraintMakerFinalizable.swift */,
+				8A0A4D5D85B4FAEB4C7AF868A3E48121 /* ConstraintMakerPriortizable.swift */,
+				D09C8BFD80A7988D3B139768116EE2A7 /* ConstraintMakerRelatable.swift */,
+				618BA51B32ACF0F8F31A11BACEF95396 /* ConstraintMultiplierTarget.swift */,
+				D3463E11A1205B5C35B599F4A19C31C3 /* ConstraintOffsetTarget.swift */,
+				1C3A931CDC4FB0563592274ED61655C7 /* ConstraintPriority.swift */,
+				5495F3260249C5CD5E62E6D02610A41D /* ConstraintPriorityTarget.swift */,
+				EEB1C88D7583A855F149230ABA2DF3C8 /* ConstraintRelatableTarget.swift */,
+				DA17F2D7F42352672F30A144E51AC809 /* ConstraintRelation.swift */,
+				35A91D0ACFB6CF1883A820AA2607BCA8 /* ConstraintView.swift */,
+				B8BDCD0CDEC036E08EBEFEBDB5217C5A /* ConstraintView+Extensions.swift */,
+				B058F739089B32F3323418933731ADFB /* ConstraintViewDSL.swift */,
+				D6E03888824F0BC09BC4827577C35087 /* Debugging.swift */,
+				465909C1E34108C63AB5FBA6378D3493 /* LayoutConstraint.swift */,
+				D69B953D578152B8ABC94EDF5E0C6A43 /* LayoutConstraintItem.swift */,
+				3ABC9D64458AB89596AC989C36546AE0 /* Typealiases.swift */,
+				45908992EEDBCFF12244DAE9912F7228 /* UILayoutSupport+Extensions.swift */,
+				432313F4618A6E0D54282078B6A48A1B /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		C098A9E35B53A4E0C62EA88384EAB1AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				461BD40CB8FA80AF0467D0FFB4B08214 /* Pods-QDHeaderTabbarViewController_Example */,
+				3E2F519BF75BE7A7529A0B3A90A08D22 /* Pods-QDHeaderTabbarViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CA6DCFA7E6F5D41CB95D4253EAD3A26A /* QDHeaderTabbarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6200639BF2E65E144CF55F7C6E65B9A /* QDHeaderTabbarViewController.swift */,
+				844328A6BCD95B4F00C5DDA70DB098C9 /* Pod */,
+				CB0ABC761F8DE9B1E25A15B7E7613041 /* Support Files */,
+			);
+			name = QDHeaderTabbarViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CB0ABC761F8DE9B1E25A15B7E7613041 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				539E5FEBE76B92A15632926714F6DC62 /* Info.plist */,
+				E2B1F065A6ECA6844D40E9F214147DB7 /* QDHeaderTabbarViewController.modulemap */,
+				5CE2C180D783AF114A5F9D30F91D5210 /* QDHeaderTabbarViewController.xcconfig */,
+				16424C4B21A5653E5205CF0675263C4B /* QDHeaderTabbarViewController-dummy.m */,
+				7440B8476FB2CBEF40558C267A74668C /* QDHeaderTabbarViewController-prefix.pch */,
+				6B656EC60F979BBB58266CC22A6DD2DA /* QDHeaderTabbarViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QDHeaderTabbarViewController";
+			sourceTree = "<group>";
+		};
+		D8B25C6DF01BE2C3F2FA6A25AEE6417A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C42E6B36692CB79785C933E25719FA6F /* SnapKit.framework */,
+				1B1D4A8D26A0C068EE049C880096F3FF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5865294F5EEA4EE3A9F562C6E2AF1F9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65089E7ECB7DA5452B49FA82231E08CD /* Pods-QDHeaderTabbarViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF70A402E9E17559E4A630F8C561B2E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAC6D41EEE00F3CC9C5A31001CCD0C7 /* Pods-QDHeaderTabbarViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DDE6D77F124334B890AD90E6F99D33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A4DE59C91EAAD95FE3347AAE9C2C69 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA25785B9287F8C51A264D50589834D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EE94B33FE5DA36C8CED2FE7F2285EC /* QDHeaderTabbarViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		517553829890A02A65A37F30B6A266CF /* QDHeaderTabbarViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC52765916E15BE8841E6899B2BC973C /* Build configuration list for PBXNativeTarget "QDHeaderTabbarViewController" */;
+			buildPhases = (
+				034DD40343286425F56A9F8FFCE13BC7 /* Sources */,
+				AF6392C0C4637429FCC648B05586B025 /* Frameworks */,
+				FA25785B9287F8C51A264D50589834D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5800A617BEAA2D883AE0D400F0962E23 /* PBXTargetDependency */,
+			);
+			name = QDHeaderTabbarViewController;
+			productName = QDHeaderTabbarViewController;
+			productReference = A367755D804BC68DCDE99F1AEB8B1B78 /* QDHeaderTabbarViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E7A3ECF115826FC82D1F408331D3796 /* Pods-QDHeaderTabbarViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3EFF2F7B83998849E6BF5F5EF5A4D1 /* Build configuration list for PBXNativeTarget "Pods-QDHeaderTabbarViewController_Example" */;
+			buildPhases = (
+				E1BBC868F6C327C3476076A52F66F975 /* Sources */,
+				03E03C4F012B5A6BB352E6AF7480108F /* Frameworks */,
+				5865294F5EEA4EE3A9F562C6E2AF1F9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DDAAD96126ADB0F576EB0E8AF088BC2 /* PBXTargetDependency */,
+				4BFAE2BA5C55030567C502CA0E4CC82B /* PBXTargetDependency */,
+			);
+			name = "Pods-QDHeaderTabbarViewController_Example";
+			productName = "Pods-QDHeaderTabbarViewController_Example";
+			productReference = 408E167A9C8CF5314A4C53D84F56F7ED /* Pods_QDHeaderTabbarViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7C53ED8D6910E36C604E4ED6CD700A2 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A83D53EEF8AA126F887A2C5C40888C /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				5D446ED88B840B37E638329820BCCD07 /* Sources */,
+				049146DAB37D28C9BB7B0EA4AA4576CE /* Frameworks */,
+				F9DDE6D77F124334B890AD90E6F99D33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = E0C7AB081F56F6F76EEAA7307CAC7FBA /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0676E107F985D1E84642CD4196E187C /* Pods-QDHeaderTabbarViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123AD6EA41E1EA1E3046EE7FD00C8726 /* Build configuration list for PBXNativeTarget "Pods-QDHeaderTabbarViewController_Tests" */;
+			buildPhases = (
+				919A45307678EA85EE3F45024311DB4B /* Sources */,
+				5B8EF914BCFAC8A233D6AC5273AA3A2C /* Frameworks */,
+				EF70A402E9E17559E4A630F8C561B2E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D34EF757A8DEF142040B46FF1ABB263 /* PBXTargetDependency */,
+			);
+			name = "Pods-QDHeaderTabbarViewController_Tests";
+			productName = "Pods-QDHeaderTabbarViewController_Tests";
+			productReference = E6099AE9145B7BEDFD22D8E91021A9F7 /* Pods_QDHeaderTabbarViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 97EDD089B67EF6C5DFAC68525437BFB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E7A3ECF115826FC82D1F408331D3796 /* Pods-QDHeaderTabbarViewController_Example */,
+				D0676E107F985D1E84642CD4196E187C /* Pods-QDHeaderTabbarViewController_Tests */,
+				517553829890A02A65A37F30B6A266CF /* QDHeaderTabbarViewController */,
+				C7C53ED8D6910E36C604E4ED6CD700A2 /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034DD40343286425F56A9F8FFCE13BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D63DE701CACF2273075E3A3B3CE99E /* QDHeaderTabbarViewController-dummy.m in Sources */,
+				35E52A22D010ED5BCB869468716668ED /* QDHeaderTabbarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D446ED88B840B37E638329820BCCD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF67FDE3B7637A49072A496EC7D86739 /* Constraint.swift in Sources */,
+				7B37679C4591B3A62F2250DD45433144 /* ConstraintAttributes.swift in Sources */,
+				DB3B1948A6B74B34F9CF38D5E03BA187 /* ConstraintConfig.swift in Sources */,
+				415B41CDEAA3C91710BCACB8FBB0F430 /* ConstraintConstantTarget.swift in Sources */,
+				8937A8445B35B6A4BF83C1775703C2C8 /* ConstraintDescription.swift in Sources */,
+				4E331F417355123B3DC0D1FCBA0097D3 /* ConstraintDSL.swift in Sources */,
+				AC20D28BE7EFBDED98AC33881B823FB6 /* ConstraintInsets.swift in Sources */,
+				6C1E55BAB2816D24AF9400E2A0E737F3 /* ConstraintInsetTarget.swift in Sources */,
+				2EB1CFC9F6FAC628FB76DDF2C6B57D75 /* ConstraintItem.swift in Sources */,
+				F86FDDFE619CD2FD94B1B228AC2F14D5 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				D90BF6D554E971D8F5A81B0699A7B38A /* ConstraintLayoutGuide.swift in Sources */,
+				267F79BE94253A9437F6249C990BD4D8 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				369BFA773229E2E7EE3EB23F44456F27 /* ConstraintLayoutSupport.swift in Sources */,
+				19FA7267B4DF04A89437755E5F329A4C /* ConstraintLayoutSupportDSL.swift in Sources */,
+				4207629FACB781BC48C8D514CE036E9F /* ConstraintMaker.swift in Sources */,
+				ACB5B17B29D15CEAAB9A2B1F8E9BC04D /* ConstraintMakerEditable.swift in Sources */,
+				1665D104FD0D2C8ECE4711D2E7DD686D /* ConstraintMakerExtendable.swift in Sources */,
+				F059AF7AAEF34276CC7527080EF22BF3 /* ConstraintMakerFinalizable.swift in Sources */,
+				9982388D694A5CC3869E08125232F82D /* ConstraintMakerPriortizable.swift in Sources */,
+				AB4A48F52C05D346C342EDA5B3750F01 /* ConstraintMakerRelatable.swift in Sources */,
+				1CDB836EBEE115EB780D9557393D8072 /* ConstraintMultiplierTarget.swift in Sources */,
+				FEFAD5143982F7D6181E1E838F02C5D0 /* ConstraintOffsetTarget.swift in Sources */,
+				B3091A279FD1943574789738B2647EAE /* ConstraintPriority.swift in Sources */,
+				CA3A65CF379E156898E687F176A131F7 /* ConstraintPriorityTarget.swift in Sources */,
+				9963CC3C93AA9AF97BA90BBEAC7BC6FA /* ConstraintRelatableTarget.swift in Sources */,
+				81A9F6129B8C0864A3E9B33B3C0AF3E7 /* ConstraintRelation.swift in Sources */,
+				9C7E0E2E515AFFDCA33EC90952237AD2 /* ConstraintView+Extensions.swift in Sources */,
+				F01E3E1510E8D266D0E3AEC6D62C994B /* ConstraintView.swift in Sources */,
+				EB03F7EA89C99940323FE63B0A1D76D1 /* ConstraintViewDSL.swift in Sources */,
+				0E612AC6FEB739ECD67200F0D0DD08A7 /* Debugging.swift in Sources */,
+				CC9F8DE9875EE0370434D6F0A11CC4E5 /* LayoutConstraint.swift in Sources */,
+				0A5C97C2B8C0D787550A86CF08275588 /* LayoutConstraintItem.swift in Sources */,
+				75AF27B346F87592D69C5FDE4A427833 /* SnapKit-dummy.m in Sources */,
+				05CC1B6DB8B0666C749BA6C95786E518 /* Typealiases.swift in Sources */,
+				FA8FBA72DED05A0D97E700568921C84A /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919A45307678EA85EE3F45024311DB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920352A312A60C0521D77412B47545AD /* Pods-QDHeaderTabbarViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BBC868F6C327C3476076A52F66F975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F20C9C24CDAE80527C249AF8EE9113 /* Pods-QDHeaderTabbarViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DDAAD96126ADB0F576EB0E8AF088BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QDHeaderTabbarViewController;
+			target = 517553829890A02A65A37F30B6A266CF /* QDHeaderTabbarViewController */;
+			targetProxy = 91754C160332941A5D7CD9BFB465A670 /* PBXContainerItemProxy */;
+		};
+		4BFAE2BA5C55030567C502CA0E4CC82B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = C7C53ED8D6910E36C604E4ED6CD700A2 /* SnapKit */;
+			targetProxy = 2E0E8DC3E363CC4F1AC2F06CEA218D8B /* PBXContainerItemProxy */;
+		};
+		5800A617BEAA2D883AE0D400F0962E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = C7C53ED8D6910E36C604E4ED6CD700A2 /* SnapKit */;
+			targetProxy = E72E9C07DEDC8033161B6CF966B0476A /* PBXContainerItemProxy */;
+		};
+		6D34EF757A8DEF142040B46FF1ABB263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QDHeaderTabbarViewController_Example";
+			target = 9E7A3ECF115826FC82D1F408331D3796 /* Pods-QDHeaderTabbarViewController_Example */;
+			targetProxy = 99D8668C2B13E21CAEF7AB3BA8676D52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6265D25DC7B926D66300551284DB8108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FEF3105B249A96CF2F744F7AFC8536C /* Pods-QDHeaderTabbarViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QDHeaderTabbarViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QDHeaderTabbarViewController_Tests/Pods-QDHeaderTabbarViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F9833E83EC222EE0F7466A30F443B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0B4E115CFB42A1159122B1F2CC5CFB /* Pods-QDHeaderTabbarViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QDHeaderTabbarViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QDHeaderTabbarViewController_Example/Pods-QDHeaderTabbarViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		860BA93DE77F2B17582AF2D584383F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE2C180D783AF114A5F9D30F91D5210 /* QDHeaderTabbarViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QDHeaderTabbarViewController/QDHeaderTabbarViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QDHeaderTabbarViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QDHeaderTabbarViewController/QDHeaderTabbarViewController.modulemap";
+				PRODUCT_MODULE_NAME = QDHeaderTabbarViewController;
+				PRODUCT_NAME = QDHeaderTabbarViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A212820F112B8E2142BA6713DF488CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11084A6BA20780B0A92EE054D45AD2B7 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAD96B1CC14C815676B18F7BF206F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11084A6BA20780B0A92EE054D45AD2B7 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E2C212B5D82F33B1FBCD39F4F2CB066D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5524CFD3F2C05D21B239BE9B4AA79B /* Pods-QDHeaderTabbarViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QDHeaderTabbarViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QDHeaderTabbarViewController_Example/Pods-QDHeaderTabbarViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E377F8D1B480D63FB4CA117F53341D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A99E30CC70F885E542D924AAB1BDA2 /* Pods-QDHeaderTabbarViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QDHeaderTabbarViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QDHeaderTabbarViewController_Tests/Pods-QDHeaderTabbarViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDF839BAC22026AF6B3BB982E24B86A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE2C180D783AF114A5F9D30F91D5210 /* QDHeaderTabbarViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QDHeaderTabbarViewController/QDHeaderTabbarViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QDHeaderTabbarViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QDHeaderTabbarViewController/QDHeaderTabbarViewController.modulemap";
+				PRODUCT_MODULE_NAME = QDHeaderTabbarViewController;
+				PRODUCT_NAME = QDHeaderTabbarViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		123AD6EA41E1EA1E3046EE7FD00C8726 /* Build configuration list for PBXNativeTarget "Pods-QDHeaderTabbarViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6265D25DC7B926D66300551284DB8108 /* Debug */,
+				E377F8D1B480D63FB4CA117F53341D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C3EFF2F7B83998849E6BF5F5EF5A4D1 /* Build configuration list for PBXNativeTarget "Pods-QDHeaderTabbarViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9833E83EC222EE0F7466A30F443B6F /* Debug */,
+				E2C212B5D82F33B1FBCD39F4F2CB066D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56A83D53EEF8AA126F887A2C5C40888C /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD96B1CC14C815676B18F7BF206F1D1 /* Debug */,
+				A212820F112B8E2142BA6713DF488CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC52765916E15BE8841E6899B2BC973C /* Build configuration list for PBXNativeTarget "QDHeaderTabbarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF839BAC22026AF6B3BB982E24B86A8 /* Debug */,
+				860BA93DE77F2B17582AF2D584383F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

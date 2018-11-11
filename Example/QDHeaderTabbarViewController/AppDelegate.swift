@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QDHeaderTabbarViewController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,8 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let vc = QDHeaderTabbarViewController()
+        vc.dataSources = [("关注", ViewController()), ("热门", ViewController()), ("关注", ViewController()), ("热门", ViewController()), ("关注", ViewController()), ("热门", ViewController())]
+        
+        vc.headerItemWidth = 80
+        vc.headerHeight = 40
+        vc.selectedTitleFont = UIFont.systemFont(ofSize: 14)
+        vc.unSelectedTitleFont = UIFont.systemFont(ofSize: 11)
+        
+        let nav = UINavigationController(rootViewController: vc)
+        self.window?.rootViewController = nav
         return true
     }
 
