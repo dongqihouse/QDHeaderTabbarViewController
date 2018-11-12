@@ -20,6 +20,20 @@ it, simply add the following line to your Podfile:
 pod 'QDHeaderTabbarViewController'
 ```
 
+## Usage
+```swift
+let vc = QDHeaderTabbarViewController()
+vc.dataSources = [("关注", ViewController()), ("热门", ViewController()), ("关注", ViewController()), ("热门", ViewController()), ("关注", ViewController()), ("热门", ViewController())]
+
+vc.headerItemWidth = 80
+vc.headerHeight = 40
+vc.selectedTitleFont = UIFont.systemFont(ofSize: 14)
+vc.unSelectedTitleFont = UIFont.systemFont(ofSize: 11)
+```
+
+## Result
+![结果](demo.gif)
+
 ## Author
 
 244514311@qq.com, 244514311@qq.com
